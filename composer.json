@@ -1,0 +1,17 @@
+{
+    "name": "knx/api-client",
+    "description": "KNX API client to communicate with MyKNX",
+    "type": "library",
+    "require": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KNX Association CVBA",
+            "email": "support@knx.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "KNX\\Api\\": "KNX/Api/" }
+    }
+}
