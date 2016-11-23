@@ -8,7 +8,7 @@ This packages allows you to communicate with the KNX API.
 
 Installation via composer:
 
-  composer require knx/api-client
+    composer require knx/api-client
 
 ## Howto
 
