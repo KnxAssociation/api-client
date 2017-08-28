@@ -105,4 +105,15 @@ class Person {
 	public static function get_by_id($id) {
 		return new self($id);
 	}
+
+	/**
+	 * Get by email
+	 *
+	 * @access public
+	 * @param String $email
+	 */
+	public static function get_by_email($email) {
+		$person = \KNX\Api\Client\Json::call('person/getByEmail', [ 'email' => $email ]);
+		return new self($person['id']);
+	}
 }
